@@ -38,7 +38,7 @@ app.post("/" , function(req , res){
 
     const options = {
         method : "POST" , 
-        auth : "kishkin10:1e48613578837f531cd80ad75f33acf1-us18"
+        auth : "kishkin10:324b6b2bd21ccd2a3f45efc3a3470232-us18"
     }
 
   const request =   https.request(url , options , function(response){
@@ -72,5 +72,5 @@ app.listen(process.env.PORT || 3000,function(){
 
 
 
-// MailChimp APi Key : 1e48613578837f531cd80ad75f33acf1-us18
+// MailChimp APi Key : 324b6b2bd21ccd2a3f45efc3a3470232-us18
 // 5cf90d9d2a
